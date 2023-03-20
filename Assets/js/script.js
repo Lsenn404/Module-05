@@ -47,6 +47,5 @@ for (var i = 0; i < blocks.length; i++) {
     container.appendChild(block);
 }
 
-
-
-
+let currentDay = document.getElementById("currentDay");
+currentDay.textContent = moment().format('dddd, MMMM Do');
